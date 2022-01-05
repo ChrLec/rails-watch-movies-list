@@ -1,0 +1,18 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.pngkey.com/png/full/872-8720323_movie-theater-png-sala-de-cine-png.png);">
+  <div class="container">
+    <h1>Save any <strong>kind</strong> of movies !</h1>
+    <p>Change your life and create movies lists.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="d-flex justify-content-between align-items-center">
+    <h2>My lists</h2>
+    <%= link_to "Add a list", new_list_path, class: "btn btn-ghost"  %>
+  </div>
+
+  <div class="cards">
+    <% @lists.each do |list| %>
+      <%= link_to list.name, list_path(list), class: "card-category", :style=>"background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(category_image.jpg)" %>
+    <% end %>
+</div>
