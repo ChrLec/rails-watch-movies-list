@@ -1,7 +1,12 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(#);">
   <div class="container">
     <h1><%= @list.name %></h1>
-    <p><%= "#{@list.movies.count} movies" %></p>
+    <% if @list.movies.count == 1 || @list.movies.count == 0 %>
+      <p><%= "#{@list.movies.count} movie" %></p>
+    <% else %>
+      <p><%= "#{@list.movies.count} movies" %></p>
+    <% end %>
+
   </div>
 </div>
 
