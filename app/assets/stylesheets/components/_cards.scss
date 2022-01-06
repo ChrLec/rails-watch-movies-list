@@ -12,3 +12,9 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+.card-category:hover {
+  text-decoration: none;
+  color: rgb(128, 46, 48);
+  opacity: 0.7;
+}
