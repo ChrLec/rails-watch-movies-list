@@ -11,3 +11,19 @@
 .btn-ghost:hover {
   opacity: 1;
 }
+
+.btn-flat {
+  color: white;
+  padding: 4px 8px;
+  font-size: x-small;
+  border-radius: 4px;
+  background: rgb(246, 107, 119);
+  transition: background 0.3s ease;
+
+}
+
+.btn-flat:hover {
+  background: rgb(248, 146, 155);
+  color: white;
+  text-decoration: none;
+}

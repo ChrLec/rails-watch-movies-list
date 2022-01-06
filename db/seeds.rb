@@ -12,8 +12,8 @@ puts "Cleaning database..."
 Movie.destroy_all
 
 puts "Creating movies ..."
-for i in 1..8
-  api_url = "http://tmdb.lewagon.com/movie/popular?&page=#{i}"
+for i in 1..100
+  api_url = "http://tmdb.lewagon.com/movie/top_rated?&page=#{i}"
   URI.open(api_url) do |stream|
     films = JSON.parse(stream.read)["results"]
     films.each do |hash|
