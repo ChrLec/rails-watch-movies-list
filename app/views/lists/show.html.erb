@@ -17,9 +17,9 @@
 
   <div class="cards">
     <% @list.bookmarks.each do |bookmark|  %>
-      <div class="card-movie">
+      <div data-aos="zoom-in" class="card-movie">
         <img src="<%= bookmark.movie.poster_url %>" />
-        <div class="card-movie-infos">
+        <div  class="card-movie-infos">
           <div>
               <div class="d-flex">
                 <h2 class="mr-2" ><%=   bookmark.movie.title   %></h2>
