@@ -1,24 +1,4 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Be able to create lists in which you will save your favourite movies!
+<img src="https://res.cloudinary.com/dqlftfvk3/image/upload/v1647345048/GitHub/Capture_d_%C3%A9cran_2022-03-15_124801_p3afax.png" alt="christelle-lecamp_capture_app" />
